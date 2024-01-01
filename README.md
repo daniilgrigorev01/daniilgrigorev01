@@ -20,9 +20,6 @@
   + Tailwind CSS
 * JavaScript
   + TypeScript
-* React
-  + Redux Toolkit
-  + Next.js
   
 Сборка:
 * Webpack
