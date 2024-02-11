@@ -1,0 +1,27 @@
+name: Обновление WakaTime
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  statistical_update:
+    name: Обновление статистики
+    runs-on: ubuntu-latest
+    steps:
+      - uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          LOCALE: 'ru'
+          COMMIT_MESSAGE: 'WakaTime statistics update'
+          SHOW_LINES_OF_CODE: 'False'
+          SHOW_TOTAL_CODE_TIME: 'False'
+          SHOW_PROFILE_VIEWS: 'False'
+          SHOW_COMMIT: 'False'
+          SHOW_DAYS_OF_WEEK: 'False'
+          SHOW_UPDATED_DATE: 'False'
+          SHOW_OS: 'False'
+          SHOW_TIMEZONE: 'False'
+          SHOW_LANGUAGE_PER_REPO: 'False'
+          SHOW_SHORT_INFO: 'False'
