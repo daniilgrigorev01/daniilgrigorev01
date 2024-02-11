@@ -10,11 +10,10 @@ jobs:
     name: Обновление статистики
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master
+      - uses: anmol098/waka-readme-stats@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          LOCALE: 'ru'
-          COMMIT_MESSAGE: 'WakaTime statistics update'
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           SHOW_LINES_OF_CODE: 'False'
           SHOW_TOTAL_CODE_TIME: 'False'
           SHOW_PROFILE_VIEWS: 'False'
