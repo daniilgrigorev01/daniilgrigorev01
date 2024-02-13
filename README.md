@@ -18,20 +18,20 @@
 ## :bar_chart: Статистика
 
 <!--START_SECTION:waka-->
-📊 **This Week I Spent My Time On** 
+📊 **На этой неделе мое время было потрачено на** 
 
 ```text
-💬 Programming Languages: 
-No Activity Tracked This Week
+💬 Языки Программирования: 
+На этой неделе активность не отслеживалась
 
-🔥 Editors: 
-No Activity Tracked This Week
+🔥 Редакторы: 
+На этой неделе активность не отслеживалась
 
-🐱‍💻 Projects: 
-No Activity Tracked This Week
+🐱‍💻 Проекты: 
+На этой неделе активность не отслеживалась
 ```
 
-**Timeline**
+**График**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/daniilgrigorev01/daniilgrigorev01/main/assets/bar_graph.png)
 
